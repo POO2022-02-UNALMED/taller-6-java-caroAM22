@@ -30,7 +30,7 @@ public class Fabricante {
 	public void setPais(Pais pais) {
 		this.pais = pais;
 	}
-	public Fabricante fabricanteMayorVentas() {
+	public static Fabricante fabricaMayorVentas() {
 	    int mayor=0;
 	    int pos=0;
 		for (int i=0;i<fabricantes.size();i++) {
